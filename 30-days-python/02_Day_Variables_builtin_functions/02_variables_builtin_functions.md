@@ -29,6 +29,7 @@ Let us open the Python shell and start using some of the most common built-in fu
 
 ![Built-in functions](../images/builtin-functions_practice.png)
 
+
 Let us practice more by using different built-in functions
 
 ![Help and Dir Built in Functions](../images/help_and_dir_builtin.png)

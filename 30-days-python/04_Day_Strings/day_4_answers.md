@@ -74,41 +74,104 @@ print(company[10])
 ```
 20.	Create an acronym or an abbreviation for the name 'Python For Everyone'.
 ```
-
+string = 'Python For Everyone'
+print(''.join(i[0] for i in string.split()))
 ```
 21.	Create an acronym or an abbreviation for the name 'Coding For All'.
 ```
-
+string = 'Coding For All
+print(''.join(i[0] for i in string.split()))
 ```
 22.	Use index to determine the position of the first occurrence of C in Coding For All.
 ```
-
+string = 'Coding For All'
+to_find = 'C'
+print(string.index(to_find)) 
 ```
 23.	Use index to determine the position of the first occurrence of F in Coding For All.
 ```
-
+string = 'Coding For All'
+to_find = 'F'
+print(string.index(to_find)) 
 ```
 24.	Use rfind to determine the position of the last occurrence of l in Coding For All People.
 ```
+string = 'Coding For All People'
+to_find = 'l'
+print(string.rfind(to_find)) 
 
 ```
 25.	Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 ```
+string = 'You cannot end a sentence with because because because is a conjunction'
+to_find = 'because'
+print(string.index(to_find)) 
 
 ```
 26.	Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 ```
-
+string = 'You cannot end a sentence with because because because is a conjunction'
+to_find = 'because'
+print(string.rindex(to_find)) 
 ```
 27.	Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 ```
+string = 'You cannot end a sentence with because because because is a conjunction'
+to_delete = 'because'
+print(string.replace(to_delete, '')) 
+```
+28. Does 'Coding For All' end with a substring coding? 
+```
+string = 'Coding For All'
+to_find = 'coding'
+print(string.endswith(to_find)) 
+```
+29. '   Coding For All      '  , remove the left and right trailing spaces in the given string.
+```
+string = '   Coding For All      '
+print(string.strip())
+```
+30. Which one of the following variables return True when we use the method isidentifier():
+30DaysOfPython
+thirty_days_of_python
+```
+string = '30DaysOfPython'
+print(string.isidentifier())
+>> False
 
-```
-28.	Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-```
-
-```
-29.	Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+string = 'thirty_days_of_python'
+print(string.isidentifier())
+>> True
 ```
 
+31. The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+```
+library = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print('# '.join(library)
+```
+32. Use the new line escape sequence to separate the following sentences.
+I am enjoying this challenge.
+I just wonder what is next.
+```
+print('I am enjoying this challenge. \nI just wonder what is next.') 
+```
+33. Use a tab escape sequence to write the following lines.
+Name      Age     Country   City
+Asabeneh  250     Finland   Helsinki
+```
+print('Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki')
+```
+34. Use the string formatting method to display the following:
+radius = 10
+area = 3.14 * radius ** 2
+The area of a circle with radius 10 is 314 meters square.
+35. Make the following using string formatting methods:
+8 + 6 = 14
+8 - 6 = 2
+8 * 6 = 48
+8 / 6 = 1.33
+8 % 6 = 2
+8 // 6 = 1
+8 ** 6 = 262144
+```
 ```

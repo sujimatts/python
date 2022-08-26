@@ -1,8 +1,5 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 17 - Exception Handling </h1>
-
-
-
 </div>
 
 [<< Day 16](../16_Day_Python_date_time/16_python_datetime.md) | [Day 18 >>](../18_Day_Regular_expressions/18_regular_expressions.md)

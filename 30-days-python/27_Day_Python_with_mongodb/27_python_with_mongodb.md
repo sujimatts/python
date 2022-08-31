@@ -1,7 +1,6 @@
 
 <div align="center">
   <h1> 30 Days Of Python: Day 27 - Python with MongoDB </h1>
-
 </div>
 
 [<< Day 26](../26_Day_Python_web/26_python_web.md) | [Day 28 >>](../28_Day_API/28_API.md)

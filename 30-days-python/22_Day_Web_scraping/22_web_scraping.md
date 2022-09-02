@@ -24,7 +24,7 @@ Web scraping is the process of extracting and collecting data from websites and 
 
 In this section, we will use beautifulsoup and requests package to scrape data. The package version we are using is beautifulsoup 4.
 
-To start scraping websites you need _requests_, _beautifoulSoup4_ and a _website_.
+To start scraping websites you need _requests_, _beautifoulSoup4_ and a _website_.  
 
 ```sh
 pip install requests
